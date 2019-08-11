@@ -105,7 +105,7 @@ bool register_yespowerr16_algo( algo_gate_t* gate )
   return true;
  };
 
-bool register_cpupower_algo( algo_gate_t* gate )
+bool register_yespower_LITB_algo( algo_gate_t* gate )
 {
   yespower_params.version = YESPOWER_1_0;
   yespower_params.N       = 2048;
